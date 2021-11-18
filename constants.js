@@ -6,10 +6,10 @@ const inputKeys = {
   'd': "Move: right",
   's': "Move: down",
   'h': "Say: Hello",
-}
+};
 
 module.exports = {
   IP,
   PORT,
   inputKeys
-}
+};
