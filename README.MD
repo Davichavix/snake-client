@@ -40,3 +40,4 @@ The following game controls are currently implemented:
 * `s`: "s" key user input logs "Move: down" to server side and results in downward movement of snake
 * `d`: "d" key user input logs "Move: right" to server side and results in rightward movement of snake
 * `h`: "h" key user input logs "Say: Hello" to server side and writes "Say: Hello"
+* `ctrl + c`: "ctrl +c" key user input exits snake-client
