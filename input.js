@@ -1,13 +1,14 @@
 const {IP, PORT, inputKeys} = require("./constants");
 
 
-const handleUserInput = function(key){
+const handleUserInput = function(key) {
+  // Exits Game if Ctrl + c is pressed
   if (key === '\u0003') {
     process.exit();
   }
   if (inputKeys[key]) {
     connection.write(inputKeys[key]);
-  };
+  }
 };
 
 let connection;
